@@ -15,6 +15,15 @@ module.exports = (env, options) => {
           },
         },
       ],
+      resolve: {
+          fullySpecified: false,
+          extensions: ['.ts', '.tsx', '.mjs', '.js', '.jsx', '...'],
+          fallback: {
+              "fs": false,
+              "path": false,
+              "os": false,
+          },
+      },
     },
   ];
 
