@@ -1,13 +1,14 @@
 {
-  "name": "acode-plugin",
-  "version": "1.0.2",
-  "description": "Template for Acode plugin",
+  "name": "acode-plugin-markdown-format",
+  "version": "1.0.0",
+  "description": "A markdown formatter intended for writing specifications",
   "main": "dist/main.js",
-  "repository": "https://github.com/deadlyjack/acode-plugin.git",
-  "author": "Ajit <me@ajitkumar.dev>",
+  "repository": "https://github.com/Sohil876/acode-plugin-markdown-format.git",
+  "author": "Sohil876 <sohil876@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "html-tag-js": "^1.1.22"
+    "html-tag-js": "^1.1.22",
+    "@quilicicf/markdown-formatter": "^4.0.7"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
